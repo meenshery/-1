@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(188, 188, 188);
+}
+
+.block {
+    display: block;
+}
+
+.none {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+    font-size: 56px;
+    width: 400px;
+    height: 200px;
+    border: none;
+    padding: 1% 2%;
+    border-radius: 10%;
+    margin-top: 2%;
+}
+
+.clickbox {
+    color: rgb(255, 255, 255);
+    background-color: rgb(88, 0, 0);
+    transition: background-color 0.3s ease, margin 0.3s ease;
+}
+
+.glass {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: rgb(0, 14, 169);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.glass:hover {
+    background: rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.neo {
+    background: #e0e0e0;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: #91009b;
+    box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff;
+    cursor: pointer;
+}
+
+.neo:active {
+    box-shadow: inset 5px 5px 10px #bebebe, inset -5px -5px 10px #ffffff;
+}
